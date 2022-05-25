@@ -9,8 +9,7 @@ result = requests.get(url)
 
 print('\n\nSuccess!!\n\n')
 
-body = result.json()['body']
-data = json.loads(body)
+data = result.json()
 
 repo_name = data['repo_name']
 repo_url = data['repo_url'].replace('.git', '')
