@@ -13,7 +13,7 @@
     "steps": [
       {
         "title": "Setup",
-        "code": "step1-foreground.sh",
+        "courseData": "step1-foreground.sh",
         "text": "step1.md"
       },
       {
