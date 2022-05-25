@@ -3,7 +3,7 @@ import json
 
 
 print('Creating a conflict...')
-url = 'https://lfvvlgcpn8.execute-api.us-east-1.amazonaws.com/prod/create_conflict'
+url = 'https://obdgyysqtjcbxqvwuhepgruqmq0lufey.lambda-url.us-east-1.on.aws/'
 
 with open('/root/repo_name') as f:
     repo_name = f.read().strip()

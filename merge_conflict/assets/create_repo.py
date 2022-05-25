@@ -3,7 +3,7 @@ import json
 
 
 print('Creating a repo for us to use in the scenario...')
-url = 'https://lfvvlgcpn8.execute-api.us-east-1.amazonaws.com/prod/create_repo'
+url = 'https://cm5vkynsyfpxkdirtmlzxct6240xmgaa.lambda-url.us-east-1.on.aws/'
 result = requests.get(url)
 
 
